@@ -1,0 +1,450 @@
+
+position: absolute;
+width: 1366px;
+height: 722px;
+left: 0px;
+top: 47px;
+
+background: url(Sparkle Video.png);
+
+
+/* Union */
+
+
+position: absolute;
+width: 1367px;
+height: 120px;
+left: -1px;
+top: 0px;
+
+background: #FFFFFF;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+
+/* BlackLogo 2 */
+
+
+position: absolute;
+width: 161px;
+height: 147px;
+left: 62px;
+top: -51px;
+
+
+
+/* Poga Pieteikt Sapni */
+
+
+position: absolute;
+width: 233px;
+height: 50px;
+left: 300px;
+top: 1810px;
+
+
+
+/* Poga Pieteikt Sapni */
+
+
+position: absolute;
+width: 233px;
+height: 50px;
+left: 832px;
+top: 1810px;
+
+
+
+/* VĒLIES PIEPILDĪT SAVU SAPNI? */
+
+
+position: absolute;
+width: 394px;
+height: 29px;
+left: 220px;
+top: 1731px;
+
+font-family: Oswald;
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 36px;
+text-align: center;
+
+color: #2F4858;
+
+
+
+/* VĒLIES PALĪDZĒT KĀDĀM PIEPILDĪT SAPNI? */
+
+
+position: absolute;
+width: 500px;
+height: 29px;
+left: 698px;
+top: 1731px;
+
+font-family: Oswald;
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 36px;
+text-align: center;
+
+color: #2F4858;
+
+
+
+/* Poga Pieteikt Sapni */
+
+
+position: absolute;
+width: 182px;
+height: 62px;
+left: 592px;
+top: 2615px;
+
+
+
+/* SAZINĀTIES AR MUMS */
+
+
+position: absolute;
+width: 819px;
+height: 48px;
+left: 274px;
+top: 2010px;
+
+font-family: Oswald;
+font-style: normal;
+font-weight: 500;
+font-size: 30px;
+line-height: 44px;
+text-align: center;
+
+color: #2F4858;
+
+
+
+/* Your Name */
+
+
+position: absolute;
+width: 296px;
+height: 43px;
+left: 377px;
+top: 2113px;
+
+
+
+/* Rectangle 35 */
+
+
+position: absolute;
+width: 612px;
+height: 232px;
+left: 377px;
+top: 2229px;
+
+background: rgba(196, 196, 196, 0.4);
+border-radius: 6px;
+
+
+/* Jautājums, vai komentārs* */
+
+
+position: absolute;
+width: 587px;
+height: 20px;
+left: 389px;
+top: 2241px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 22px;
+display: flex;
+align-items: center;
+letter-spacing: -0.015em;
+
+color: #2F4858;
+
+
+
+/* Your Email */
+
+
+position: absolute;
+width: 296px;
+height: 43px;
+left: 693px;
+top: 2113px;
+
+
+
+/* Rectangle 34 */
+
+
+position: absolute;
+width: 612px;
+height: 43px;
+left: 377px;
+top: 2171px;
+
+background: rgba(196, 196, 196, 0.4);
+border-radius: 6px;
+
+
+/* Telefons* */
+
+
+position: absolute;
+width: 573px;
+height: 20px;
+left: 389px;
+top: 2184px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 22px;
+display: flex;
+align-items: center;
+letter-spacing: -0.015em;
+
+color: #2F4858;
+
+
+
+/* ripped 6 11 */
+
+
+position: absolute;
+width: 1366px;
+height: 55px;
+left: 1366px;
+top: 3458px;
+
+background: url(ripped 6.png);
+transform: rotate(-180deg);
+
+
+/* Group 2 */
+
+
+position: absolute;
+width: 86px;
+height: 83px;
+left: 640px;
+top: 366px;
+
+filter: drop-shadow(0px 4px 20px rgba(0, 0, 0, 0.25));
+
+
+/* Menu */
+
+
+position: absolute;
+width: 1242px;
+height: 146px;
+left: 62px;
+top: -50px;
+
+
+
+/* Text */
+
+
+position: absolute;
+width: 644px;
+height: 114px;
+left: 364px;
+top: 919px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 22px;
+text-align: center;
+
+color: #2F4858;
+
+
+
+/* Piekrītu, ka mani dati tiks izmantoti likumdošanā noteiktā kārtībā un tiks saglabāti līdz brīdim, kamēr tas būs nepieciešams. */
+
+
+position: absolute;
+width: 572px;
+height: 39px;
+left: 417px;
+top: 2526px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 17px;
+
+color: #2F4858;
+
+
+
+/* * obligāti aizpildāmie lauki */
+
+
+position: absolute;
+width: 612px;
+height: 25px;
+left: 377px;
+top: 2476px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 17px;
+
+color: #2F4858;
+
+
+
+/* footer */
+
+
+position: absolute;
+width: 1366px;
+height: 376px;
+left: 0px;
+top: 3275px;
+
+
+
+/* Alina_1 1 */
+
+
+position: absolute;
+width: 298px;
+height: 184px;
+left: 662px;
+top: 1382px;
+
+background: url(Alina_1.jpg);
+
+
+/* Zanda_1 */
+
+
+position: absolute;
+width: 328px;
+height: 355px;
+left: 0px;
+top: 1197px;
+
+background: url(Zanda_1.jpg);
+
+
+/* Sibilla_4 */
+
+
+position: absolute;
+width: 334px;
+height: 364px;
+left: 328px;
+top: 1202px;
+
+background: url(Sibilla_4.jpg);
+
+
+/* Brinuma_meita-15 */
+
+
+position: absolute;
+width: 298px;
+height: 180px;
+left: 662px;
+top: 1202px;
+
+background: url(Brinuma_meita-15.jpg);
+
+
+/* Anda_2 1 */
+
+
+position: absolute;
+width: 406px;
+height: 383px;
+left: 960px;
+top: 1183px;
+
+background: url(Anda_2.jpg);
+
+
+/* ripped 6 7 */
+
+
+position: absolute;
+width: 1366px;
+height: 55px;
+left: 1366px;
+top: 1238px;
+
+background: url(ripped 6.png);
+transform: rotate(-180deg);
+
+
+/* ripped 6 8 */
+
+
+position: absolute;
+width: 1366px;
+height: 55px;
+left: 0px;
+top: 1526px;
+
+background: url(ripped 6.png);
+
+
+/* Group 9 */
+
+
+position: absolute;
+width: 1366px;
+height: 481.59px;
+left: 0px;
+top: 2827px;
+
+
+
+/* Rectangle 44 */
+
+
+position: absolute;
+width: 16px;
+height: 16px;
+left: 380px;
+top: 2529px;
+
+background: #E7E7E7;
+border-radius: 3px;
+
+
+/* SparkleHeart ir biedrība, kas radīta, lai palīdzētu cilvēkiem piepildīt pat pārdrošākos sapņus. Šeit satiekas sapņotāji un viņu atbalstītāji - uzņēmumi, kas sniedz palīdzīgu roku, lai kopā pasauli padarītu par labāku vietu mums visiem.Mēs esam gatavi palīdzēt Tev piepildīt sapni. Kā pamats iedvesmai - tiek radīti arī 99 stāsti par Latvijas sievietēm. */
+
+
+position: absolute;
+width: 654px;
+height: 114px;
+left: 359px;
+top: 919px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 22px;
+text-align: center;
+
+color: #2F4858;
