@@ -133,10 +133,17 @@ html {
 }
 
 
+
 .nav-stils {
     padding-right: 2rem;
     padding-left: 3rem;
     padding-bottom: 2rem;
+}
+
+.nav-stils-i {
+    padding-right: 2rem;
+    padding-left: 4rem;
+    padding-bottom: 3rem;
 }
 
 .video {
@@ -188,8 +195,7 @@ html {
 
 .mala1 {
     position: absolute;
-    align-content: flex-start;
-    transform: translate(0, 20%);
+    margin-top: -1%;
 
 }
 
@@ -234,6 +240,21 @@ html {
 }
 
 .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 47%;
+    border-radius: 5%;
+}
+
+a:hover {
+    color: #0056b3;
+    text-decoration: underline;
+    text-decoration-color: FFA800;
+    text-decoration-line: underline;
+}
+
+.center-i {
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -303,22 +324,6 @@ html {
     line-height: 29px;
 }
 
-#sutit_piesakiSapni {
-    width: 182px;
-    height: 62px;
-    background-color: #FFA800;
-    border: none;
-    color: white;
-    text-align: center;
-    font-size: 24px;
-    border-radius: 30px;
-    font-weight: 500;
-    font-family: Montserrat;
-    margin-top: 6%;
-    align-items: center;
-    line-height: 29px;
-    margin-bottom: 24%;
-}
 
 
 
@@ -447,20 +452,6 @@ h4 {
 
 }
 
-.secoondarytxtPS {
-    height: 49px;
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 24px;
-    line-height: 22px;
-    text-align: center;
-    color: #2F4858;
-
-    margin-top: 5%;
-
-
-}
 
 .secoondarytxt {
     height: 49px;
@@ -501,7 +492,7 @@ h4 {
     padding-left: 7%;
 }
 
-.virsraksts {
+.virsraksts-i {
     font-family: Oswald;
     font-style: normal;
     font-weight: 500;
@@ -511,6 +502,8 @@ h4 {
     align-items: center;
     text-align: center;
     color: #2F4858;
+    margin-top: 3.7%;
+    letter-spacing: 1.1px;
 
 
 
@@ -528,20 +521,6 @@ h4 {
     color: #2F4858;
     margin-top: 46px;
     margin-bottom: 63px;
-}
-
-
-.virsrakstsPS {
-    font-family: Oswald;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 48px;
-    line-height: 71px;
-    display: block;
-    align-items: center;
-    text-align: center;
-    color: #2F4858;
-    margin-top: 3.3%;
 }
 
 
@@ -653,17 +632,10 @@ img {
     padding-bottom: 5em;
 }
 
-.sapnis_atts {
-    margin-top: 8%;
-    padding-left: 4em;
-}
 
 
 
-.sapnis_attb {
-    margin-top: 8%;
-    padding-right: 3em;
-}
+
 
 #map {
     height: 648px;

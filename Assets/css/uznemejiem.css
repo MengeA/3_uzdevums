@@ -95,9 +95,10 @@ html {
 
 
 .nav-stils {
-    padding-right: 2rem;
-    padding-left: 3rem;
-    padding-bottom: 2rem;
+    padding-right: 3rem;
+    padding-left: 2rem;
+    padding-bottom: 1rem;
+    margin-bottom: 1%;
 }
 
 
@@ -139,14 +140,7 @@ html {
     margin-top: 1%;
 }
 
-.sazinatiesPS {
-    font-family: Oswald;
-    text-align: center;
-    color: #2F4858;
-    margin-bottom: 3.9%;
-    font-size: 30px;
-    margin-top: 6%;
-}
+
 
 
 .sazinaties_uznemejiem {
@@ -181,22 +175,6 @@ html {
     line-height: 22px;
 }
 
-.buttonPS {
-    background-color: #FFA800;
-    border: none;
-    color: white;
-    font-size: 18px;
-    border-radius: 30px;
-    width: 233px;
-    height: 50px;
-    font-weight: medium;
-    font-family: Montserrat;
-    margin-top: 6.4%;
-    cursor: pointer;
-    line-height: 22px;
-    margin-left: 7%;
-}
-}
 
 
 
@@ -217,22 +195,6 @@ html {
     margin-left: 2em;
 }
 
-.buttonpiesakisapniprof {
-    background-color: #FFA800;
-    border: none;
-    color: white;
-    font-size: 18px;
-    border-radius: 30px;
-    width: 233px;
-    height: 50px;
-    font-weight: medium;
-    font-family: Montserrat;
-    margin-top: 5.6%;
-    margin-bottom: 17%;
-    cursor: pointer;
-    line-height: 22px;
-    margin-right: 7%;
-}
 
 
 .zemtabulas {
@@ -243,22 +205,6 @@ html {
     line-height: 17px;
 
 
-}
-
-#sutit {
-    width: 182px;
-    height: 62px;
-    background-color: #FFA800;
-    border: none;
-    color: white;
-    text-align: center;
-    font-size: 24px;
-    border-radius: 30px;
-    font-weight: 500;
-    font-family: Montserrat;
-    margin-top: 6%;
-    align-items: center;
-    line-height: 29px;
 }
 
 #sutit_uznemejiem {
@@ -278,6 +224,29 @@ html {
     line-height: 29px;
 }
 
+
+
+#sutit {
+    width: 182px;
+    height: 62px;
+    background-color: #FFA800;
+    border: none;
+    color: white;
+    text-align: center;
+    font-size: 24px;
+    border-radius: 30px;
+    font-weight: 500;
+    font-family: Montserrat;
+    margin-top: 6%;
+    align-items: center;
+    line-height: 29px;
+}
+
+@media (max-width:768px) {
+    #sutit_uznemejiem {
+        margin-top: 5em;
+    }
+}
 
 .peleksfons {
     background-color: #c4c4c466;
@@ -309,14 +278,26 @@ a {
 }
 
 h4 {
+
     font-size: 24px;
+    margin-top: -23%;
+    margin-left: -1%;
+    margin-right: -5%;
 }
+
 
 .footer-col-1,
 li {
-    padding-bottom: 15px;
+    padding-bottom: 17px;
     font-size: 18px;
 }
+
+.footer-col-2,
+li {
+    padding-bottom: 17px;
+    font-size: 18px;
+}
+
 
 #Col2Foot {
     margin-left: -6%;
@@ -337,7 +318,7 @@ li {
     align-items: center;
     text-align: center;
     color: #2F4858;
-    margin-top: 48px;
+    margin-top: 5.5%;
     margin-bottom: 62px;
 
 
@@ -393,80 +374,158 @@ li {
 }
 
 
-
-
-
-.sapnispers_txt {
-    height: 30px;
-    font-family: Oswald;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 30px;
-    line-height: 44px;
-    display: flex;
-    color: #2F4858;
-    margin-top: 8%;
-    width: 42%;
-    margin-left: 34%;
-
-
-
-
+.mt-3,
+.my-3 {
+    margin-top: 2rem !important;
 }
 
-.sapnisprof_txt {
-    height: 30px;
-    font-family: Oswald;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 30px;
-    line-height: 44px;
-    display: flex;
-    color: #2F4858;
-    margin-top: 8%;
-    width: 50%;
-    margin-left: 24%;
-}
 
-.sapnispers_content {
 
-    height: 176px;
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 18px;
-    line-height: 22px;
-    text-align: center;
-    color: #2F4858;
-    width: 60%;
-    margin-top: 5.5%;
-    width: 52%;
-    margin-left: 27%;
 
-}
 
-.sapnisprof_content {
 
-    height: 176px;
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 18px;
-    line-height: 22px;
-    text-align: center;
-    color: #2F4858;
-    width: 60%;
-    margin-top: 6%;
-    width: 59%;
-    margin-left: 17%;
 
-}
 
 .sapnis_att {
     margin-top: 15%;
 
 }
 
-.form-check-label {
-    margin-left: 2em;
+
+@media (min-width: 992px) {
+    .navbar-expand-lg {
+        -ms-flex-flow: row nowrap;
+        flex-flow: unset;
+        -ms-flex-pack: start;
+        justify-content: flex-start;
+        margin-right: 10%;
+        margin-left: 2%;
+    }
+
+    @media (min-width:1024px) {
+
+        #blackNavTx .nav-item .nav-link-1 {
+            color: #060606;
+            font-size: 18px;
+            font-weight: 500;
+            margin-left: 70%;
+
+        }
+
+        #blackNavTx .nav-item .nav-link-2 {
+            color: #060606;
+            font-size: 18px;
+            font-weight: 500;
+            margin-left: 9%;
+
+        }
+
+        #blackNavTx .nav-item .nav-link-3 {
+            color: #060606;
+            font-size: 18px;
+            font-weight: 500;
+            margin-left: -30%;
+
+        }
+
+        #blackNavTx .nav-item .nav-link-4 {
+            color: #060606;
+            font-size: 18px;
+            font-weight: 500;
+            margin-left: -67%;
+
+        }
+
+        #blackNavTx .nav-item .nav-link-5 {
+            color: #060606;
+            font-size: 18px;
+            font-weight: 500;
+            margin-left: -92%;
+
+        }
+
+        #blackNavTx .nav-item .nav-link-6 {
+            color: #060606;
+            font-size: 18px;
+            font-weight: 500;
+            margin-left: -111%;
+
+        }
+
+        #blackNavTx .nav-item .nav-link-7 {
+            color: #060606;
+            font-size: 18px;
+            font-weight: 500;
+            margin-left: -298%;
+
+        }
+
+        a:hover {
+            text-decoration: underline;
+            text-decoration-color: #FFA800;
+            text-decoration-line: underline;
+        }
+
+        .sapnispers_content {
+
+            height: 176px;
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 18px;
+            line-height: 22px;
+            text-align: center;
+            color: #2F4858;
+            width: 60%;
+            margin-top: -5.5%;
+            width: 52%;
+            margin-left: 10em;
+        }
+
+        .sapnisprof_content {
+
+            height: 176px;
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 18px;
+            line-height: 22px;
+            text-align: center;
+            color: #2F4858;
+            width: 60%;
+            margin-top: 6%;
+            width: 59%;
+            margin-left: 17%;
+
+        }
+
+
+
+
+
+
+
+
+        .nav-logo {
+            margin-left: 19%;
+            margin-top: -9%;
+        }
+    }
+
+    .navbar-nav {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        padding-left: 0;
+        margin-bottom: -39px;
+        list-style: none;
+    }
+
+    .nav-fill .nav-item {
+        -ms-flex: 1 1 auto;
+        flex: 16 30 auto;
+        text-align: center;
+        margin-top: -26px;
+    }
 }

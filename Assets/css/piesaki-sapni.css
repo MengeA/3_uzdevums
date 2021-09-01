@@ -1,0 +1,784 @@
+/*$desktop:1200px; //xl
+laptop:1024px; //lg
+tablet:768px; //md
+phone:480px; //sm */
+
+.reset-this {
+    animation: none;
+    animation-delay: 0;
+    animation-direction: normal;
+    animation-duration: 0;
+    animation-fill-mode: none;
+    animation-iteration-count: 1;
+    animation-name: none;
+    animation-play-state: running;
+    animation-timing-function: ease;
+    backface-visibility: visible;
+    background: 0;
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-color: transparent;
+    background-image: none;
+    background-origin: padding-box;
+    background-position: 0 0;
+    background-position-x: 0;
+    background-position-y: 0;
+    background-repeat: repeat;
+    background-size: auto auto;
+    border: 0;
+    border-style: none;
+    border-width: medium;
+    border-color: inherit;
+    border-bottom: 0;
+    border-bottom-color: inherit;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    border-bottom-style: none;
+    border-bottom-width: medium;
+    border-collapse: separate;
+    border-image: none;
+    border-left: 0;
+    border-left-color: inherit;
+    border-left-style: none;
+    border-left-width: medium;
+    border-radius: 0;
+    border-right: 0;
+    border-right-color: inherit;
+    border-right-style: none;
+    border-right-width: medium;
+    border-spacing: 0;
+    border-top: 0;
+    border-top-color: inherit;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-top-style: none;
+    border-top-width: medium;
+    bottom: auto;
+    box-shadow: none;
+    box-sizing: content-box;
+    caption-side: top;
+    clear: none;
+    clip: auto;
+    color: inherit;
+    columns: auto;
+    column-count: auto;
+    column-fill: balance;
+    column-gap: normal;
+    column-rule: medium none currentColor;
+    column-rule-color: currentColor;
+    column-rule-style: none;
+    column-rule-width: none;
+    column-span: 1;
+    column-width: auto;
+    content: normal;
+    counter-increment: none;
+    counter-reset: none;
+    cursor: auto;
+    direction: ltr;
+    display: inline;
+    empty-cells: show;
+    float: none;
+    font: normal;
+    font-family: inherit;
+    font-size: medium;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    height: auto;
+    hyphens: none;
+    left: auto;
+    letter-spacing: normal;
+    line-height: normal;
+    list-style: none;
+    list-style-image: none;
+    list-style-position: outside;
+    list-style-type: disc;
+    margin: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    max-height: none;
+    max-width: none;
+    min-height: 0;
+    min-width: 0;
+    opacity: 1;
+    orphans: 0;
+    outline: 0;
+    outline-color: invert;
+    outline-style: none;
+    outline-width: medium;
+    overflow: visible;
+    overflow-x: visible;
+    overflow-y: visible;
+    padding: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    page-break-after: auto;
+    page-break-before: auto;
+    page-break-inside: auto;
+    perspective: none;
+    perspective-origin: 50% 50%;
+    position: static;
+    right: auto;
+    table-layout: auto;
+    text-align: inherit;
+    text-align-last: auto;
+    text-decoration: none;
+    text-decoration-color: inherit;
+    text-decoration-line: none;
+    text-decoration-style: solid;
+    text-indent: 0;
+    text-shadow: none;
+    text-transform: none;
+    top: auto;
+    transform: none;
+    transform-style: flat;
+    transition: none;
+    transition-delay: 0s;
+    vertical-align: baseline;
+    visibility: visible;
+    white-space: normal;
+    widows: 0;
+    width: auto;
+    word-spacing: normal;
+    z-index: auto;
+}
+
+
+header,
+body {
+    font-family: Montserrat;
+
+}
+
+html {
+    font-size: 18px;
+}
+
+.nav-stils {
+
+    padding-left: 10%;
+    margin-top: -10%;
+}
+
+.first-button {
+    display: none;
+
+}
+
+
+
+.animated-icon1,
+.animated-icon2,
+.animated-icon3 {
+    width: 30px;
+    height: 20px;
+    position: relative;
+    margin: 0px;
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+    -webkit-transition: .5s ease-in-out;
+    -moz-transition: .5s ease-in-out;
+    -o-transition: .5s ease-in-out;
+    transition: .5s ease-in-out;
+    cursor: pointer;
+}
+
+.animated-icon1 span {
+    display: block;
+    position: absolute;
+    height: 3px;
+    width: 100%;
+    border-radius: 9px;
+    opacity: 1;
+    left: 0;
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+    -webkit-transition: .25s ease-in-out;
+    -moz-transition: .25s ease-in-out;
+    -o-transition: .25s ease-in-out;
+    transition: .25s ease-in-out;
+}
+
+.animated-icon1 span {
+    background: black;
+}
+
+.animated-icon1 span:nth-child(1) {
+    top: 0px;
+}
+
+.animated-icon1 span:nth-child(2) {
+    top: 10px;
+}
+
+.animated-icon1 span:nth-child(3) {
+    top: 20px;
+}
+
+.animated-icon1.open span:nth-child(1) {
+    top: 11px;
+    -webkit-transform: rotate(135deg);
+    -moz-transform: rotate(135deg);
+    -o-transform: rotate(135deg);
+    transform: rotate(135deg);
+}
+
+.animated-icon1.open span:nth-child(2) {
+    opacity: 0;
+    left: -60px;
+}
+
+.animated-icon1.open span:nth-child(3) {
+    top: 11px;
+    -webkit-transform: rotate(-135deg);
+    -moz-transform: rotate(-135deg);
+    -o-transform: rotate(-135deg);
+    transform: rotate(-135deg);
+}
+
+.navbar li {
+    padding: 0;
+}
+
+.secoondarytxtPS {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    color: #2F4858;
+    margin-top: 4.5%;
+    letter-spacing: 0.4px;
+    height: 31px;
+}
+
+
+#menu {
+    color: black;
+    text-align: center;
+}
+
+.logo {
+    text-align: center;
+    list-style-type: none;
+}
+
+
+.virsrakstsPS {
+    font-family: Oswald;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 71px;
+    display: block;
+    align-items: center;
+    text-align: center;
+    color: #2F4858;
+    margin-top: 6.9%;
+}
+
+.sapnis_atts {
+    margin-top: 12%;
+    padding-left: 5.6em;
+}
+
+.sapnis_attb {
+    margin-top: 12%;
+    padding-right: 2em;
+}
+
+.nav-item a {
+    color: rgba(0, 0, 0, .9);
+
+}
+
+.navbar li {
+    padding: .5rem 1rem;
+}
+
+
+@media (min-width:1024px) {
+    .sapnispers_txt {
+        height: 30px;
+        font-family: Oswald;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 30px;
+        line-height: 44px;
+        display: flex;
+        color: #2F4858;
+        margin-top: 1.85em;
+        width: 42%;
+        margin-left: 7.5em;
+        margin-bottom: 11%;
+
+    }
+
+    .sapnisprof_txt {
+        height: 30px;
+        font-family: Oswald;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 30px;
+        line-height: 44px;
+        display: flex;
+        color: #2F4858;
+        margin-top: 1.8em;
+        width: 50%;
+        margin-left: 24%;
+    }
+}
+
+.virsrakstsPS {
+    font-family: Oswald;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 71px;
+    display: block;
+    align-items: center;
+    text-align: center;
+    color: #2F4858;
+    margin-top: 6.9%;
+}
+
+.sapnis_atts {
+    margin-top: 12%;
+    padding-left: 2.6em;
+}
+
+.sapnis_attb {
+    margin-top: 12%;
+    padding-right: 2em;
+}
+
+.nav-item a {
+    color: rgba(0, 0, 0, .9);
+
+}
+
+.navbar li {
+    padding: .5rem 1rem;
+}
+
+@media (max-width:1265px) {
+    .sapnispers_txt {
+        height: 30px;
+        font-family: Oswald;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 30px;
+        line-height: 44px;
+        display: flex;
+        color: #2F4858;
+        margin-top: 8%;
+        margin-left: 34%;
+        margin-bottom: 17%;
+
+    }
+
+    .sapnisprof_txt {
+        height: 30px;
+        font-family: Oswald;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 30px;
+        line-height: 44px;
+        display: flex;
+        color: #2F4858;
+        margin-top: 1.8em;
+        width: 50%;
+        margin-left: 36%;
+        margin-bottom: 17%;
+    }
+
+    .sapnis_attb {
+        margin-top: 12%;
+        padding-left: 6em;
+
+
+    }
+}
+
+@media (min-width: 992px) {
+    .navbar-expand-lg {
+        -ms-flex-flow: row nowrap;
+        flex-flow: unset;
+        -ms-flex-pack: start;
+        justify-content: flex-start;
+        margin-right: -10%;
+        margin-left: 2%;
+    }
+
+    @media (min-width:1024px) {
+
+        #blackNavTx .nav-item .nav-link-1 {
+            color: #060606;
+            font-size: 18px;
+            font-weight: 500;
+            margin-left: 77%;
+
+        }
+
+        #blackNavTx .nav-item .nav-link-2 {
+            color: #060606;
+            font-size: 18px;
+            font-weight: 500;
+            margin-left: 6%;
+
+        }
+
+        #blackNavTx .nav-item .nav-link-3 {
+            color: #060606;
+            font-size: 18px;
+            font-weight: 500;
+            margin-left: -46%;
+
+        }
+
+        #blackNavTx .nav-item .nav-link-4 {
+            color: #060606;
+            font-size: 18px;
+            font-weight: 500;
+            margin-left: -95%;
+
+        }
+
+        #blackNavTx .nav-item .nav-link-5 {
+            color: #060606;
+            font-size: 18px;
+            font-weight: 500;
+            margin-left: -123%;
+
+        }
+
+        #blackNavTx .nav-item .nav-link-6 {
+            color: #060606;
+            font-size: 18px;
+            font-weight: 500;
+            margin-left: -145%;
+
+        }
+
+        #blackNavTx .nav-item .nav-link-7 {
+            color: #060606;
+            font-size: 18px;
+            font-weight: 500;
+            margin-left: -17em;
+
+        }
+
+        a:hover {
+            text-decoration: underline;
+            text-decoration-color: #FFA800;
+            text-decoration-line: underline;
+        }
+
+        .sapnispers_content {
+
+            height: 176px;
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 18px;
+            line-height: 22px;
+            text-align: center;
+            color: #2F4858;
+            width: 60%;
+            margin-top: -5.5%;
+            width: 52%;
+            margin-left: 10em;
+        }
+
+        .sapnisprof_content {
+
+            height: 176px;
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 18px;
+            line-height: 22px;
+            text-align: center;
+            color: #2F4858;
+            width: 60%;
+            margin-top: 6%;
+            width: 59%;
+            margin-left: 17%;
+
+        }
+
+
+
+
+
+
+
+
+        .nav-logo {
+            margin-left: 19%;
+            margin-top: -9%;
+        }
+    }
+
+    .navbar-nav {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        padding-left: 0;
+        margin-bottom: -39px;
+        list-style: none;
+    }
+
+    .nav-fill .nav-item {
+        -ms-flex: 1 1 auto;
+        flex: 16 30 auto;
+        text-align: center;
+        margin-top: -26px;
+    }
+}
+
+@media (max-width:768px) {
+    .sapnispers_txt {
+        height: 30px;
+        font-family: Oswald;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 30px;
+        line-height: 44px;
+        display: flex;
+        color: #2F4858;
+        margin-top: 1.85em;
+        width: 42%;
+        margin-left: 34%;
+        margin-bottom: 15%;
+
+    }
+
+    .sapnisprof_txt {
+        height: 30px;
+        font-family: Oswald;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 30px;
+        line-height: 44px;
+        display: flex;
+        color: #2F4858;
+        margin-top: 1.8em;
+        width: 50%;
+        margin-left: 28%;
+    }
+}
+
+.mala-ps {
+    position: absolute;
+    margin-top: -1%;
+
+}
+
+
+.mala-ps2 {
+    position: absolute;
+    margin-top: 27%;
+    width: 100%;
+}
+
+.buttonPS {
+    background-color: #FFA800;
+    border: none;
+    color: white;
+    font-size: 18px;
+    border-radius: 30px;
+    width: 233px;
+    height: 50px;
+    font-weight: medium;
+    font-family: Montserrat;
+    margin-top: 5.0%;
+    cursor: pointer;
+    line-height: 22px;
+    margin-left: 7%;
+}
+
+.buttonpiesakisapniprof {
+    background-color: #FFA800;
+    border: none;
+    color: white;
+    font-size: 18px;
+    border-radius: 30px;
+    width: 233px;
+    height: 50px;
+    font-weight: medium;
+    font-family: Montserrat;
+    margin-top: 4.6%;
+    margin-bottom: 27%;
+    cursor: pointer;
+    line-height: 22px;
+    margin-right: 0%;
+}
+
+.sazinaties-ps {
+    font-family: Oswald;
+    text-align: center;
+    color: #2F4858;
+    margin-bottom: 3.9%;
+    font-size: 30px;
+    margin-top: 7.5%;
+}
+
+
+
+
+
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 47%;
+    border-radius: 5%;
+}
+
+
+
+
+
+.zemtabulas {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #2F4858;
+    margin-top: 3.5%;
+
+
+}
+
+
+
+
+.peleksfons {
+    background-color: #c4c4c466;
+    height: 39px;
+    font-size: 18px;
+}
+
+.form-check-label {
+    margin-left: 4%;
+    margin-top: 2%;
+    margin-bottom: 6.3%;
+}
+
+
+.no-bullets,
+a {
+    list-style-type: none;
+    color: #ffffff;
+}
+
+.form-check-input {
+    position: absolute;
+    margin-top: 1rem;
+    margin-left: -1.1rem;
+
+}
+
+.box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 50% 50%;
+}
+
+#sutit_piesakiSapni {
+    width: 182px;
+    height: 62px;
+    background: #CD7C20;
+    border-radius: 30px;
+    margin-bottom: 8.3em;
+}
+
+
+.pazinojums {
+    display: none;
+}
+
+
+
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background-color: #2F4858;
+    color: #ffffff;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 20px;
+    font-size: 18px;
+}
+
+.footer-logo {
+    margin-top: -17%;
+    margin-left: -12%;
+}
+
+h4 {
+    font-size: 24px;
+    margin-top: -24%;
+    margin-left: 1%;
+    margin-right: -5%;
+}
+
+#Col2Foot {
+    margin-left: -6%;
+    padding: 0%;
+    margin-top: 1%
+}
+
+.footer-col-1 li {
+    padding-bottom: 1em;
+}
+
+.footer-col-2 li {
+    padding-bottom: 16px;
+    font-size: 18px;
+
+}
+
+.footer-col-2 h4 {
+    margin-bottom: 0rem;
+}
+
+.footer-col-2 p {
+    margin-bottom: -0.6em;
+}
+
+.footer-col-3 {
+    margin-top: .7em;
+}
+
+.footer-col-3 li {
+    margin-right: -1em;
+}
+
+.footer-col-3 p {
+    margin-bottom: 0.4em;
+}
+
+.footer-col-3 h4 {
+    margin-right: 0em;
+    margin-bottom: 0.6rem;
+}
